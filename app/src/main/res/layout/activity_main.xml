@@ -286,20 +286,23 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="76dp"
-        android:background="@drawable/btn"
+        app:backgroundTint="#00897B"
         android:gravity="center"
         android:text="Sign out"
-        android:textColor="#fff"
-        android:textSize="19.sp"
-        app:backgroundTint="#BD6666"
-        app:icon="@drawable/lg_ic"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:cornerRadius="10dp"
+        android:shadowRadius="40"
+        app:icon="@drawable/lg_btn"
+        app:iconSize="33dp"
         app:iconGravity="textStart"
         app:iconPadding="8dp"
-        app:iconTint="@color/white"
+        app:iconTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
